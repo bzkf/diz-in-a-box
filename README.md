@@ -44,7 +44,7 @@ kubectl get all -A
 <!-- x-release-please-start-version -->
 
 ```sh
-helm upgrade --install --wait --timeout=10m --version=1.0.0 diz-in-a-box oci://ghcr.io/bzkf/diz-in-a-box/charts/diz-in-a-box
+helm upgrade --install --wait --timeout=10m --version=1.0.1 diz-in-a-box oci://ghcr.io/bzkf/diz-in-a-box/charts/diz-in-a-box
 
 # test the installation
 helm test diz-in-a-box
