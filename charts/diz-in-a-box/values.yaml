@@ -107,7 +107,7 @@ stream-processors:
         image:
           registry: ghcr.io
           repository: miracum/kafka-fhir-to-server
-          tag: v2.0.6@sha256:155859d275b636e356a99dac3592aa602eef6b68a8f1fe82f7e9670e2be1ef33
+          tag: v2.1.2@sha256:ab3e6746b29ac76111525816d171606d4dc5cf96ec1c9c70a7bff6927d61d96a
           pullPolicy: IfNotPresent
         env:
           - name: FHIR_URL
@@ -137,7 +137,7 @@ stream-processors:
         image:
           registry: ghcr.io
           repository: miracum/obds-to-fhir
-          tag: v2.0.15@sha256:c359ef5449068ff0c1231c3ee237801f2fb76932ab9a16386813d02c07ac9f7d
+          tag: v2.0.16@sha256:7ee77b8002c2eeaefcd207f938cd35d48dba79531c46aa6c6159ba8ced2e03d7
           pullPolicy: IfNotPresent
         env:
           - name: OPENTRACING_JAEGER_ENABLED
