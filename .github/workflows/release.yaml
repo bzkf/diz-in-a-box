@@ -17,10 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
-      - uses: sigstore/cosign-installer@1fc5bd396d372bee37d608f955b336615edf79c8 # v3.2.0
+      - uses: sigstore/cosign-installer@e1523de7571e31dbe865fd2e80c5c7c23ae71eb4 # v3.4.0
 
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3
+        uses: docker/login-action@e92390c5fb421da1463c202d546fed0ec5c39f20 # v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
@@ -151,7 +151,7 @@ jobs:
       id-token: write
       contents: write
     # can't be referenced by digest. See <https://github.com/slsa-framework/slsa-github-generator#verification-of-provenance>
-    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.9.0
+    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.10.0
     with:
       base64-subjects: "${{ needs.prepare-artifacts.outputs.hashes }}"
       compile-generator: true # Workaround for https://github.com/slsa-framework/slsa-github-generator/issues/1163
