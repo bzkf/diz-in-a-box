@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.3](https://github.com/bzkf/diz-in-a-box/compare/v2.2.2...v2.2.3) (2024-06-24)
+
+
+### Miscellaneous Chores
+
+* readme cleanup ([#179](https://github.com/bzkf/diz-in-a-box/issues/179)) ([d6c1fea](https://github.com/bzkf/diz-in-a-box/commit/d6c1fea99aee0442635f818c4a7617644205a9e2))
+* rename diz-in-a-box to onco-analytics-on-fhir ([#184](https://github.com/bzkf/diz-in-a-box/issues/184)) ([bab3d27](https://github.com/bzkf/diz-in-a-box/commit/bab3d2771b7f95f975f07084d2cc73e21b7f0458))
+
 ## [2.2.2](https://github.com/bzkf/diz-in-a-box/compare/v2.2.1...v2.2.2) (2024-05-07)
 
 
